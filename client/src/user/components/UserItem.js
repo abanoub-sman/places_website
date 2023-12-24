@@ -1,4 +1,5 @@
 import React from "react";
+import "./UserItem.css" //this using the css file without this line not design applied 
 
 const UserItem= props=>{
     
