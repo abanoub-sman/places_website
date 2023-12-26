@@ -1,5 +1,7 @@
 import React from "react";
 import UsersList from "../components/UsersList";
+// this will be a component more than presentational 
+// as it will load data from backend so this is Stateful
 const Users = () => {
   const USERS = [
     {
@@ -10,7 +12,7 @@ const Users = () => {
       places: 3,
     },
   ];
-  return <UsersList items ={USERS}/>;
+  return (<UsersList items ={USERS}/>);
 };
 
 export default Users;

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './Avatar.css';
+// this is a presentational component 
 
 const Avatar = props => {
   return (
